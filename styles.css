@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Warang Citi', sans-serif;
+    color: #000;
+
+}
+
+
+
+.fondo {
+    background-color: #F4ECEB;
+
+}
+
+.fotoinicio {
+    height: 40em;
+    background-image: url(images/fondo7.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+
+    font-size: 3rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius: 25px;
+    border-color: #6C6969;
+    
+}
+
+.countdown-el span {
+    font-size: 1rem;
+}
+
+.countdown-el p{
+    color: #708090;
+}
